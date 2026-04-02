@@ -1,36 +1,48 @@
-* {
-    text-align: center;
-    color: rgb(250, 235, 217);
-}
-
 body {
-    background-color: rgb(33, 32, 30);
+    background: rgb(22, 22, 20);
 }
 
-h1 {
-    font-size: 500%;
+.header {
+    font-size: 200%;
+    color: rgb(250, 235, 217);
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(99, 65, 6);
-    padding: 5%;
-    border-style: solid;
-    border-color: rgb(255, 215, 215);
-    border-width: 0.3mm;
-    margin-top: 2%;
-    margin-bottom: 0%;
     
+    padding: 2%;
+    border-style: solid;
 }
+
+span {
+    color: black;
+    background: rgb(250, 235, 217);
+    border-radius: 30px;
+    display: inline-block;
+    width: 210px;
+}
+
+.image {
+    margin: 10px auto;
+    display: block;
+}
+
+.card_one {
+    background-color: rgb(99, 65, 6);
+    color: rgb(250, 235, 217);
+    text-align: center;
+
+    padding: 5px;
+    height: auto;
+    width: fit-content;
+    border-radius: 50px;
+    margin: 20px  auto;
+}
+
 
 h2 {
     text-shadow: 5cap;
     font-size: 300%;
     font-weight: bolder;
-}
-
-.back-anime {
-    height: 260px;
-    width: 1885px auto;
-    margin-top: auto;
 }
 
 p, strong {
